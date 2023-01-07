@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/index.css">
     <script defer src="./js/index.js"></script>
-    <title>Document</title>
+    <title>Pessoae Idade</title>
 </head>
 <body id="body">
     <div class="container">
@@ -16,7 +16,7 @@
       </header>
 
       <section id="holder">
-        <form>
+        <form id="formData">
           <div class="top">
             <label>Ano de Nascimento:</label>
             <input type="number" id="ano" class="ano" placeholder="Digite o ano de nascimento">
@@ -27,15 +27,15 @@
               <p>Sexo:</p>
               
               <label class="" tabindex="0" for="masculino">
-                <input type="radio" id="masculino" name="check">Masculino:
+                <input type="radio" id="masculino" name="sexo" value="masculino">Masculino:
               </label>
               
               <label class="" tabindex="0" for="feminino">
-                <input type="radio" id="feminino" name="check">Feminino
+                <input type="radio" id="feminino" name="sexo" value="feminino">Feminino
               </label>
             </div>
             
-            <button>Verificar</button>
+            <button id="verificar">Verificar</button>
           </div>
             
         </form>
