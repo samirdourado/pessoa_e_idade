@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <script defer src="./js/index.js"></script>
+    <title>Pessoae Idade</title>
+</head>
+<body id="body">
+    <div class="container">
+      <header>
+        <h1>Verficador de Idade</h1>
+      </header>
+
+      <section id="holder">
+        <form id="formData">
+          <div class="top">
+            <label>Ano de Nascimento:</label>
+            <input type="number" id="ano" class="ano" placeholder="Digite o ano de nascimento">
+          </div>
+
+          <div class="midle">
+            <div>
+              <p>Sexo:</p>
+              
+              <label class="" tabindex="0" for="masculino">
+                <input type="radio" id="masculino" name="sexo" value="masculino">Masculino:
+              </label>
+              
+              <label class="" tabindex="0" for="feminino">
+                <input type="radio" id="feminino" name="sexo" value="feminino">Feminino
+              </label>
+            </div>
+            
+            <button id="verificar">Verificar</button>
+          </div>
+            
+        </form>
+
+        <div id="contentHolder">
+          <!-- <p>Detectamos mulher com 59 anos</p> -->
+          <!-- <figure>
+            <img src="./img/2015-09-15-yasmina-model-age-59.webp">
+          </figure> -->
+        </div>
+
+      </section>
+
+      <footer>
+        <p>&copy; Feito por Samir Dourado</p>
+      </footer>
+
+    </div>    
+</body>
+</html>
